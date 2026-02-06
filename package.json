@@ -1,0 +1,36 @@
+{
+  "name": "q-grid-scanner",
+  "version": "0.1.0",
+  "description": "Open-source quantum-readiness assessment CLI. Scan for PQC vulnerabilities.",
+  "main": "dist/index.js",
+  "bin": {
+    "q-grid-scanner": "dist/index.js"
+  },
+  "keywords": [
+    "quantum",
+    "post-quantum-cryptography",
+    "nist-pqc",
+    "security-scanner",
+    "q-grid",
+    "qaas"
+  ],
+  "author": "TAURUS AI Corp <admin@taurusai.io>",
+  "license": "MIT",
+  "homepage": "https://q-grid.net",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Taurus-Ai-Corp/quantum-readiness-scanner.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "commander": "^12.0.0",
+    "chalk": "^5.3.0",
+    "glob": "^10.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.0.0"
+  }
+}
